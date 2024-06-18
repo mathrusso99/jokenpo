@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.arena {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.container-game-mode {
+    position: absolute;
+    top: 15px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    font-size: 50px;
+    align-items: center;
+}
+
+.game-mode{
+    outline: none;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.603);
+    color: white;
+}
+
+.vs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 240px;
+    position: absolute;
+    bottom: 2%;
+}
+
+input{
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-radius: 10px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.603);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input:hover{
+    opacity: 0.6;
+}
+
+input:active{
+    opacity: 0.9;
+}
+
+.alexa {
+    width: 500px;
+    border-radius: 45%;
+    position: fixed;
+    right: 6%;
+    top: 20%;
+}
+
+.you {
+    width: 450px;
+    border-radius: 30%;
+    position: fixed;
+    left: 6%;
+    top: 20%;
+}
+
+.name-alexa {
+    position: absolute;
+    top: 8%;
+    font-size: 60px;
+    right: 15%;
+}
+
+.name-voce {
+    position: absolute;
+    top: 8%;
+    font-size: 60px;
+    left: 15%;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.603);
+    border-radius: 20px;
+    color: white;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+    top: 22%;
+    gap: 18px;
+    font-size: 25px;
+}
+
+.jokenpo {
+    padding: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 110px;
+}
+
+.jokenpo:hover {
+    opacity: 0.8;
+}
+
+.jokenpo:active {
+    opacity: 0.9;
+    background: rgb(130, 180, 250);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.reset {
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 160px;
+    margin: 0 auto;
+}
+
+.your-score span {
+
+    color: red;
+}
+
+.your-score {
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    font-size: 60px;
+}
+
+.alexa-score {
+    position: absolute;
+    right: 7%;
+    bottom: 15%;
+    font-size: 60px;
+}
+
+.alexa-score span {
+
+    color: rgb(130, 180, 250);
+}
+
+.result {
+    font-size: 40px;
+}

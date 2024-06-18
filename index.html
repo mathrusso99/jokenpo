@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Jokenpô</title>
+</head>
+
+<body>
+
+    <img src="./assets/lin-kuei-temple-mortal-kombat-x-arena.jpg" alt="arena-img" class="arena">
+    <img src="./assets/vs.png" class="vs" alt="vs-logo">
+    <img src="./assets/alexa.png" class="alexa" alt="alexa-img">
+
+    <h1 class="name-alexa">Alexa</h1>
+
+    <p class="alexa-score">Pontuação da Alexa : <span id="alexa-score">0</span></p>
+
+    <img src="./assets/youu.png" class="you" alt="mao-img">
+
+    <h1 class="name-voce">Você</h1>
+
+    <p class="your-score">Sua Pontuação : <span id="human-score">0</span></p>
+
+    <div class="container-game-mode">
+
+        <label for="game-mode"><b>Escolha o modo de jogo </b></label>
+
+        <select name="select" class="game-mode" onchange="gameMode()">
+
+            <option value="livre">Livre</option>
+            <option value="melhor-cinco">Melhor de 5</option>
+            <option value="melhor-dez">Melhor de 10</option>
+
+        </select>
+
+
+
+    </div>
+
+    <div class="container">
+
+        <h1>Jokenpô</h1>
+        <h2>Modo de jogo:<p class="result-select">Livre</p>
+        </h2>
+
+        <div class="buttons">
+
+            <button id="rock" onclick="youStart('rock')" class="jokenpo">&#x1F44A;</button>
+            <button id="paper" onclick="youStart('paper')" class="jokenpo">&#x1f590;</button>
+            <button id="scissors" onclick="youStart('scissors')" class="jokenpo">&#x270c;</button>
+
+        </div>
+
+        <button class="reset" onclick="resetGame()" type="button">RESET GAME</button>
+
+        <p class="result"></p>
+
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
