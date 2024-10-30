@@ -18,5 +18,4 @@
 
 <h3> 🖱️ Site funcionando</h3>
 
-
 https://github.com/mathrusso99/jokenpo/blob/main/assets/jokenpo.mp4
