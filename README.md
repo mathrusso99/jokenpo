@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <br>
 <h3>:computer: Screen</h3>
-<img src = "https://github.com/mathrusso99/conversor-de-moedas/blob/main/assets/web.png?raw=true">
+<img src = "https://github.com/mathrusso99/jokenpo/blob/main/assets/Captura%20de%20Tela%20(38).png?raw=true">
 
 
 <h3> :iphone: Mobile</h3>
