@@ -13,11 +13,11 @@ body {
 
 }
 
-h1{
+h1 {
     font-size: 60px;
 }
 
-h2{
+h2 {
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ h2{
     align-items: center;
 }
 
-.game-mode{
+.game-mode {
     outline: none;
     width: 200px;
     height: 50px;
@@ -63,7 +63,7 @@ h2{
     bottom: 2%;
 }
 
-input{
+input {
     border: none;
     display: flex;
     justify-content: center;
@@ -76,11 +76,11 @@ input{
     cursor: pointer;
 }
 
-input:hover{
+input:hover {
     opacity: 0.6;
 }
 
-input:active{
+input:active {
     opacity: 0.9;
 }
 
@@ -190,4 +190,76 @@ input:active{
 
 .result {
     font-size: 40px;
+}
+
+@media screen and (max-width: 500px) {
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        top: 15%;
+
+    }
+
+    .alexa {
+        display: none;
+    }
+
+    .you {
+        display: none;
+    }
+
+    .container-game-mode {
+
+        font-size: 40px;
+
+    }
+
+    .name-alexa {
+        display: none;
+    }
+
+    .name-voce {
+        display: none;
+    }
+
+    .alexa-score {
+
+        left: 50px;
+        bottom: 250px;
+        font-size: 45px;
+    }
+
+    .your-score {
+
+        bottom: 35px;
+        left: 95px;
+        font-size: 45px;
+    }
+
+    .vs {
+        width: 30%;
+        height: 15%;
+        bottom: 110px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .result{
+        font-size: 30px;
+    }
 }
