@@ -16,6 +16,6 @@
 <h3> :iphone: Mobile</h3>
 <img src = "https://github.com/mathrusso99/jokenpo/blob/main/assets/Captura%20de%20Tela%20(54).png?raw=true">
 
-<h3> 🖱️ Site funcionando</h3>
+<h3> 🖱️ Caso queira ver o site funcionando basta clicar no link e baixar o video</h3>
 
 https://github.com/mathrusso99/jokenpo/blob/main/assets/jokenpo.mp4
