@@ -14,7 +14,7 @@
 
 
 <h3> :iphone: Mobile</h3>
-<img src = "https://github.com/mathrusso99/conversor-de-moedas/blob/main/assets/mobile.png?raw=true">
+<img src = "https://github.com/mathrusso99/jokenpo/blob/main/assets/Captura%20de%20Tela%20(54).png?raw=true">
 
 <h3> 🖱️ Site funcionando</h3>
 
